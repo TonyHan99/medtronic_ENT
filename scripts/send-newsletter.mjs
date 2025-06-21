@@ -1,3 +1,4 @@
+console.log("===== Medtronic_ENT 최종 버전 스크립트 실행 (다른 코드 절대 아님) =====");
 // import { PrismaClient } from '@prisma/client'; 삭제
 import 'dotenv/config';
 import axios from 'axios';
