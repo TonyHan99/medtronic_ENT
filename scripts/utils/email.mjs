@@ -15,7 +15,7 @@ export async function sendEmail(options) {
       url: 'https://api.hiworks.com/office/v2/webmail/sendMail',
       data: formData,
       headers: {
-        'Authorization': 'Bearer 388c20f143ae9a0dc7c528a57f48d3a2',
+        'Authorization': `Bearer ${process.env.HIWORKS_API_TOKEN}`,
         ...formData.getHeaders()
       },
       validateStatus: null
